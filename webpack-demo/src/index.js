@@ -19,7 +19,7 @@ function component() {
         '5 cubed is equal to' + cube(5)
     ].join('\n\n')
 
-    btn.innerHTML = 'Click me and check the console!'
+    btn.innerHTML = 'jiangzongyu Click me and check the console!'
     btn.onclick = printMe
 
     element.appendChild(btn)

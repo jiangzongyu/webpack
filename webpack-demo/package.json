@@ -7,9 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "start": "webpack-dev-server --config webpack.dev.js --progress --mode development",
     "server": "node server.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js --progress --mode development"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,7 @@
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "uglifyjs-webpack-plugin": "^2.2.0"
   }
 }
